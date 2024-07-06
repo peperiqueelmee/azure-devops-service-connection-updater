@@ -1,0 +1,22 @@
+{
+  "name": "azure-devops-service-connection-updater",
+  "version": "1.0.0",
+  "description": "A tool to update Azure DevOps service connections.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "azure",
+    "devops",
+    "service connections",
+    "updater"
+  ],
+  "author": "Jose Riquelme",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "chalk": "^5.3.0",
+    "dotenv": "^16.4.5"
+  }
+}
